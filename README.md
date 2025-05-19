@@ -45,6 +45,9 @@ venv\Scripts\activate
 # Для macOS/Linux:
 source venv/bin/activate
 
+#При ошибки Shell прописать в терминал
+Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process
+
 5. Установка зависимостей
 # Установка библиотек
 pip install -r requirements.txt
